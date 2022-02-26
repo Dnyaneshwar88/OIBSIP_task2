@@ -1,0 +1,165 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header section */
+header {
+    position: fixed;
+    top: 0px;
+    background: linear-gradient(to left, rgb(10, 105, 74), rgb(12, 84, 94), rgb(12, 50, 94), rgb(22, 83, 214));
+    height: 4rem;
+    width: 100%;
+}
+
+/* navigation bar */
+nav ul li {
+    list-style-type: none;
+    list-style-position: outside;
+    position: absolute;
+    top: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#home {
+    margin-left: 200%;
+}
+
+#about {
+    margin-left: 300%;
+}
+
+#skill {
+    margin-left: 450%;
+}
+
+#contact {
+    margin-left: 430%;
+}
+
+.navElement {
+    font-size: 2rem;
+    color: white;
+    border-bottom: 1000px;
+}
+
+.navElement:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+/* end of navigation bar */
+
+#homePage {
+    background-image: url(background-portfolio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50rem;
+}
+
+h3 {
+    padding: 10% 15% 1% 15%;
+    font-size: 5rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#getContact {
+    padding: 1%;
+    display: inline-block;
+    width: 5rem;
+    height: 3rem;
+    margin: 1% 15%;
+    font-size: 2.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+
+    transition: width;
+    transition-duration: 2s;
+}
+
+#getContact:hover {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 2%;
+    width: 10rem;
+}
+
+/* about page */
+#aboutPage {
+    padding: 5% 1%;
+    height: 30rem;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 3rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+table {
+    width: 100%;
+    padding: 1rem 5rem;
+}
+
+tr,
+td {
+    padding: 1rem;
+}
+
+#mySelf{
+    border-radius: 50%;
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+h5 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+}
+
+/* language page */
+#skillPage {
+    padding: 5% 1%;
+    height: 20rem;
+    background-color: antiquewhite;
+}
+
+.skill:hover {
+    color: hsl(243, 46%, 43%);
+}
+
+/* contact tab */
+#contactUs {
+    text-align: center;
+    height: 10rem;
+    color: white;
+    background: linear-gradient(to left, rgb(10, 105, 74), rgb(12, 84, 94), rgb(12, 50, 94), rgb(22, 83, 214));
+}
+
+/* social media */
+#instagram,
+#facebook,
+#linkedin {
+    margin: 1%;
+    display: inline-block;
+}
+
+#instagram:hover,
+#facebook:hover,
+#linkedin:hover {
+    background-color: grey;
+}
